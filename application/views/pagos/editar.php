@@ -23,4 +23,5 @@
 	</div>
 	<?php } ?>
 	<button type="submit" class="btn btn-primary">Actualizar Pago</button>
+	<a href="<?php echo base_url('pagos/getPagos/'.$pago->codigoUsuario);?>" class="btn btn-danger">Cancelar</a>
 </form> 

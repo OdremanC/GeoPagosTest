@@ -18,4 +18,5 @@
   </div>
  <?php } ?>
   <button type="submit" class="btn btn-primary">Actualizar Usuario</button>
+  <a href="<?php echo base_url('');?>" class="btn btn-danger">Cancelar</a>
 </form> 
